@@ -4,11 +4,6 @@ This project was developed as part of the "Advanced Simulation Modeling" class. 
 Overview
 Monte Carlo methods are a class of algorithms that rely on random sampling to obtain numerical results. The basic idea is to use randomness to solve problems that might be deterministic in principle. The steps generally include:
 
-Define a domain of possible inputs: Identify a suitable input space for the problem.
-Generate inputs randomly: Draw samples from a probability distribution over the domain.
-Perform a deterministic computation: Execute a deterministic algorithm using the random inputs.
-Aggregate the results: Combine the individual results to obtain the final outcome.
-Monte Carlo π Approximation
 In this specific case, the Monte Carlo method is applied to approximate the value of π. The approach follows the example provided on Wikipedia for Monte Carlo modeling:
 https://en.wikipedia.org/wiki/Monte_Carlo_method#Overview
 
